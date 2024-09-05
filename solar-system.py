@@ -34,14 +34,15 @@ class Planet(turtle.Turtle):
 
 def create_planets():
     return [
-        Planet("Mercury",40, 'grey', 0.05, 0.5),
-        Planet("Venus",80, 'orange', 0.03, 1),
-        Planet("Earth",100,'blue', 0.01, 1.2),
-        Planet("Mars",150, 'red', 0.007, 0.8),
-        Planet("Jupiter",180, 'brown', 0.02, 2),
-        Planet("Saturn",230, 'pink', 0.018, 1.8),
-        Planet("Uranus",250, 'light blue', 0.016, 1.5),
-        Planet("Neptune",280, 'black', 0.005, 1.4)
+        Planet("Mercury", 60, 'grey', 0.05, 0.5),
+        Planet("Venus", 110, 'orange', 0.03, 1),
+        Planet("Earth", 160,'blue', 0.01, 1.2),
+        Planet("Mars", 210, 'red', 0.007, 0.8),
+        Planet("Jupiter", 270, 'brown', 0.02, 2),
+        Planet("Saturn", 340, 'pink', 0.018, 1.8),
+        Planet("Uranus", 410, 'light blue', 0.016, 1.5),
+        Planet("Neptune", 470, 'black', 0.005, 1.4),
+        Planet("Pluto", 530, 'dark grey', 0.003, 0.6)
         ]
 
 def main():
